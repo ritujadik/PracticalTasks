@@ -1,0 +1,39 @@
+ul{
+    display: flex;
+    margin: 2px;
+    padding: 0;
+    gap: 1px;
+    margin-top: 150px;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    background-color:rgba(0, 0, 0, 0.881);
+}
+ ul li{
+    list-style-type: none;
+    width: 400px;
+    height: 210px;
+    background-color:gray;
+    padding:10px;
+    display: flex;
+    align-items:first baseline;
+    font-weight: bold;
+    color: white;
+    justify-content:space-around;
+    border-radius: 20px;
+    flex-wrap: wrap;   
+}
+
+*{
+    box-sizing:border-box; 
+    background-color:black;
+}
+
+.image{
+    margin-top: 2px;
+    margin-left: 5px;
+    
+    
+}
+.people{
+    justify-content: center;
+}
