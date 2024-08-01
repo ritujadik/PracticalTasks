@@ -6,13 +6,13 @@ ul{
     margin-top: 150px;
     justify-content:space-around;
     flex-wrap: wrap;
-    background-color:rgba(0, 0, 0, 0.881);
+    background-color:black;
 }
  ul li{
     list-style-type: none;
     width: 400px;
     height: 210px;
-    background-color:gray;
+    background-color:lightslategray;
     padding:10px;
     display: flex;
     align-items:first baseline;
@@ -25,7 +25,7 @@ ul{
 
 *{
     box-sizing:border-box; 
-    background-color:black;
+    background-color:gray;
 }
 
 .image{
@@ -34,6 +34,23 @@ ul{
     
     
 }
-.people{
+.people li{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
+
 }
+.people li .name {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    background-color: transparent;
+}
+
+ .people img{
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+          object-fit: cover;
+ }
